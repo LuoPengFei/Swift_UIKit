@@ -12,6 +12,7 @@
 		ABE649241C50BE8000CCF039 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE649221C50BE8000CCF039 /* Main.storyboard */; };
 		ABE649261C50BE8000CCF039 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABE649251C50BE8000CCF039 /* Assets.xcassets */; };
 		ABE649291C50BE8100CCF039 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE649271C50BE8100CCF039 /* LaunchScreen.storyboard */; };
+		ABE649311C51F96500CCF039 /* SwiftManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE649301C51F96500CCF039 /* SwiftManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		ABE649251C50BE8000CCF039 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABE649281C50BE8100CCF039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABE6492A1C50BE8100CCF039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABE649301C51F96500CCF039 /* SwiftManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				ABE6491E1C50BE8000CCF039 /* AppDelegate.swift */,
 				ABE649201C50BE8000CCF039 /* ViewController.swift */,
+				ABE649301C51F96500CCF039 /* SwiftManager.swift */,
 				ABE649221C50BE8000CCF039 /* Main.storyboard */,
 				ABE649251C50BE8000CCF039 /* Assets.xcassets */,
 				ABE649271C50BE8100CCF039 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABE649211C50BE8000CCF039 /* ViewController.swift in Sources */,
+				ABE649311C51F96500CCF039 /* SwiftManager.swift in Sources */,
 				ABE6491F1C50BE8000CCF039 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +252,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Swift_UIKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Pengfei.Swift-UIKit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -259,6 +264,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Swift_UIKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Pengfei.Swift-UIKit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -284,6 +290,7 @@
 				ABE6492F1C50BE8100CCF039 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
